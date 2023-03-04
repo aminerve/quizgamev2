@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="game.css" />
+    <script src="./index.js" defer></script>
+    <title>Quiz Page</title>
+  </head>
+  <body>
+    <div class="containers">
+      <div id="game" class="justify-center flex-column">
+        <div id="hud">
+          <div class="hud-item">
+            <h2 id="progressText" class="hud prefix">Question #1</h2>
+          </div>
+          <div class="hud-item">
+            <p class="hud-prefix">Score</p>
+            <h1 class="hud-main-text" id="score">0</h1>
+          </div>
+        </div>
+        <h1 id="question">What type of animal was Dumbo?</h1>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">Girrafe</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">Meercat</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">Elephant</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">A Flying Pig</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
